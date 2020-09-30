@@ -1,0 +1,38 @@
+###Q1:- Find out biggest of given 3 numbers
+a = int(input("Enter the first number:- "))
+b = int(input("Enter the Second number:- "))
+c = int(input("Enter the Third number:- "))
+if (a > b and a > c):
+    print("First Number is Greater")
+elif(b>a and b>c):
+    print("Second value is Greater")
+elif(c>a and c>b):
+    print("Third value is Greater")
+else:
+    print("All value are Equal")
+
+###Q2:- Check weather the given number between 1 to 100
+a=int(input("Enter the value of a :-"))
+if a in range(1,100):
+    print("a is between 1 to 100")
+else:
+    print("a is outside range!")
+
+###Q3:- Find the number is Odd / Even
+a=int(input("Enter the value of a:-"))
+if(a%2==0):
+    print("Number is Even")
+else :
+    print("Its a Odd number")
+
+###Q4:- Write a programe the letter of the name & index
+a=str(input("Enter the name you like to :-"))
+for i in range(0,len(a)):
+    print(f"{a[i]} index is {i}")
+
+###Q4:- Write a programe the letter of the name & index
+a=str(input("Enter the name you like to :-"))
+dict={}
+for i in range(0,len(a)):
+    dict[i]=a[i]
+print(dict)
